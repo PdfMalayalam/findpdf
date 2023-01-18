@@ -10,4 +10,6 @@ RUN mkdir /findpdf
 WORKDIR /findpdf
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-#
+
+#test failed
+Expose 3306
