@@ -1,0 +1,31 @@
+services:
+  - type: web
+    plan: free
+    name: Re-name
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    repo: https://github.com/PdfMalayalam/findpdf.git      
+    branch: vipinpkd
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: CHANNELS 
+        sync: false
+      - key: ADMINS 
+        sync: false
+      - key: DATABASE_URI 
+        sync: false
+      - key: DATABASE_NAME 
+        sync: false
+      - key: COLLECTION_NAME
+        sync: false
+      - key: PICS 
+        sync: false
+      - key: LOG_CHANNEL 
+        sync: false    
+    autoDeploy: false 
