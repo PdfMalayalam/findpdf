@@ -90,3 +90,6 @@ python3 bot.py
 • /batch - to create link for multiple posts
 • /link - to create link for one post
 ```
+
+
+[Deploy](https://render.com/deploy?repo=https://github.com/PdfMalayalam/findpdf/tree/vipinpkd)
