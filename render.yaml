@@ -9,9 +9,9 @@ services:
     branch: vipinpkd
     envVars:
       - key: BOT_TOKEN 
-        value: '2115274353:AAFkV9u4Uojj-3OQP4UVVIgaY6w576mTDmM'
+        sync: false
       - key: API_ID 
-        value: '6'
+        sync: false
       - key: API_HASH 
         sync: false
       - key: CHANNELS 
